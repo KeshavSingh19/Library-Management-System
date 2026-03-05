@@ -12,7 +12,6 @@ public class BookService {
         try (Connection conn = DatabaseConnection.getConnection()) {
 
             System.out.print("Enter Book Title: ");
-            sc.nextLine();
             String title = sc.nextLine();
 
             System.out.print("Enter Author Name: ");
@@ -97,7 +96,6 @@ public class BookService {
         try (Connection conn = DatabaseConnection.getConnection()) {
 
             System.out.print("Enter Student Name: ");
-            sc.nextLine();
             String name = sc.nextLine();
 
             System.out.print("Enter Email: ");
